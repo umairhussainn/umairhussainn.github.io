@@ -26,12 +26,26 @@
 
 <main>
   <h1>Let's talk</h1>
-  <p class="tag">Building something in AI or health-tech and need someone who ships, not just prototypes? I'd like to hear about it.</p>
+  <p class="tag">Building something in AI or health-tech and need someone who ships, not just prototypes? Send a message below — it reaches my inbox directly, or email me straight.</p>
 
-  <p><strong>Email:</strong> <a href="mailto:noahhere008@gmail.com" style="color:var(--main);">noahhere008@gmail.com</a></p>
+  <form action="https://formspree.io/f/mkjwbzaw" method="POST" style="max-width:480px; margin-bottom:32px;">
+    <div style="margin-bottom:16px;">
+      <label for="name" style="display:block; font-size:14px; font-weight:500; margin-bottom:6px;">Name</label>
+      <input type="text" id="name" name="name" required style="width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:6px; font-family:'Inter',sans-serif; font-size:15px; box-sizing:border-box;">
+    </div>
+    <div style="margin-bottom:16px;">
+      <label for="email" style="display:block; font-size:14px; font-weight:500; margin-bottom:6px;">Email</label>
+      <input type="email" id="email" name="_replyto" required style="width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:6px; font-family:'Inter',sans-serif; font-size:15px; box-sizing:border-box;">
+    </div>
+    <div style="margin-bottom:20px;">
+      <label for="message" style="display:block; font-size:14px; font-weight:500; margin-bottom:6px;">Message</label>
+      <textarea id="message" name="message" rows="5" required style="width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:6px; font-family:'Inter',sans-serif; font-size:15px; box-sizing:border-box; resize:vertical;"></textarea>
+    </div>
+    <button type="submit" class="cta" style="border:none; cursor:pointer; font-family:'Inter',sans-serif;">Send message</button>
+  </form>
+
+  <p><strong>Or email directly:</strong> <a href="mailto:noahhere008@gmail.com" style="color:var(--main);">noahhere008@gmail.com</a></p>
   <p><strong>GitHub:</strong> <a href="https://github.com/umairhussainn" style="color:var(--main);">github.com/umairhussainn</a></p>
-
-  <a class="cta" href="mailto:noahhere008@gmail.com">Email me</a>
 </main>
 
 <footer>Umair Hussain — built by hand, no framework, on GitHub Pages.</footer>
